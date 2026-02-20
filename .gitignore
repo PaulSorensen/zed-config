@@ -1,0 +1,14 @@
+# paulsorensen.io .gitignore
+# Ignore everything by default
+*
+
+# Allow only specified files and directories
+!.gitignore
+!README.md
+!LICENSE
+!settings.json
+!keymap.json
+!themes/
+!themes/**
+!assets/
+!assets/**
