@@ -12,3 +12,5 @@
 !themes/**
 !assets/
 !assets/**
+!sync-from-zed.sh
+!sync-to-zed.sh
