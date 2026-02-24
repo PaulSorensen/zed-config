@@ -25,16 +25,17 @@ To use a theme, copy the file from `themes/` into your own `~/.config/zed/themes
 
 ## Author
 
-**Paul Sørensen**
-[https://paulsorensen.io](https://paulsorensen.io)
-[https://github.com/paulsorensen](https://github.com/paulsorensen)
+**Paul Sørensen**  
+
+- Website: [https://paulsorensen.io](https://paulsorensen.io)  
+- GitHub: [https://github.com/paulsorensen](https://github.com/paulsorensen)
 
 ## Support
 
-If you found this project useful, a small tip is appreciated ❤️
+If you found this project useful, a small tip is appreciated ❤️  
 [https://buymeacoffee.com/paulsorensen](https://buymeacoffee.com/paulsorensen)
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.  
 See [LICENSE](LICENSE) for details.
