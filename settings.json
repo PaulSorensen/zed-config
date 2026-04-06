@@ -7,15 +7,27 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "restore_on_startup": "empty_tab",
   "agent_ui_font_size": 17.0,
   "agent_buffer_font_size": 15.0,
   "cursor_shape": "bar",
   "buffer_line_height": "comfortable",
   "edit_predictions": {
-    "provider": "zed",
+    "provider": "ollama",
+    "ollama": {
+      "model": "qwen2.5-coder:7b",
+    },
+  },
+  "language_models": {
+    "ollama": {
+      "api_url": "http://localhost:11434",
+    },
   },
   "agent_servers": {
     "claude": {
+      "favorite_config_option_values": {
+        "model": ["opus"],
+      },
       "default_config_options": {
         "model": "opus",
       },
@@ -24,16 +36,12 @@
   "agent": {
     "inline_assistant_model": {
       "provider": "ollama",
-      "model": "qwen3-coder:30b",
-      "enable_thinking": true,
+      "model": "qwen2.5-coder:7b",
     },
     "default_model": {
       "provider": "ollama",
-      "model": "qwen3-coder:30b",
-      "enable_thinking": false,
+      "model": "qwen2.5-coder:7b",
     },
-    "favorite_models": [],
-    "model_parameters": [],
   },
   "telemetry": {
     "diagnostics": false,
